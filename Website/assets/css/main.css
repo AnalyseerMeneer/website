@@ -2296,13 +2296,6 @@ input, select, textarea {
 
 		}
 
-.logo {
-  width: 200px;   /* kies zelf breedte */
-  height: auto;   /* verhoudingen blijven correct */
-  display: block;
-  margin: 0 auto; /* optioneel: centreren */
-}
-
 /* Icons */
 
 	ul.icons {
@@ -4005,4 +3998,45 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+
+/* === Logo in de header === */
+#header .logo-header {
+  height: 70px;            /* compacte hoogte in de navigatiebalk */
+  width: auto;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+/* Een kleine hover-animatie voor een professionele look */
+#header .logo-header:hover {
+  transform: scale(1.05);
+}
+
+/* === Logo in de banner === */
+#banner .logo-banner {
+  display: block;
+  margin: 0 auto 1em auto; /* centreert het logo */
+  max-width: 500px;        /* standaard op desktop */
+  width: 100%;
+  height: auto;
+}
+
+/* Responsieve aanpassingen */
+@media screen and (max-width: 980px) {
+  #banner .logo-banner {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #banner .logo-banner {
+    max-width: 120px;
+  }
+
+  #header .logo-header {
+    height: 32px;          /* iets kleiner in de mobiele header */
+  }
+}
 
