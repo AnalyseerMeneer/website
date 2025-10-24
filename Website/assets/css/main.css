@@ -4026,7 +4026,11 @@ input, select, textarea {
 /* Responsieve aanpassingen */
 @media screen and (max-width: 980px) {
   #banner .logo-banner {
-    max-width: 120px;
+    max-width: 96px;
+  }
+
+  #header .logo-header {
+    height: 25px;
   }
 }
 
