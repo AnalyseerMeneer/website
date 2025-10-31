@@ -3447,7 +3447,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #56595c;
-		height: 4em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -4003,7 +4003,7 @@ input, select, textarea {
 
 /* === Logo in de header === */
 #header .logo-header {
-  height: 50px;            /* compacte hoogte in de navigatiebalk */
+  height: 10px;            /* compacte hoogte in de navigatiebalk */
   width: auto;
   vertical-align: middle;
   transition: transform 0.2s ease;
@@ -4031,16 +4031,17 @@ input, select, textarea {
   }
 
   #header .logo-header {
-    height: 25px;
+    height: 40px;
   }
 }
 
 @media screen and (max-width: 736px) {
   #banner .inner .logo-banner {
-    max-width: 96px; /* mobiel */
+    max-width: 400px; /* mobiel */
   }
 
   #header .logo-header {
-    height: 15px;
+    height: 40px;
+	
   }
 }
