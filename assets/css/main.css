@@ -4000,27 +4000,20 @@ input, select, textarea {
 	}
 
 
-
 /* === Logo in de header === */
 #header .logo-header {
-  height: 10px;            /* compacte hoogte in de navigatiebalk */
+  height: 60px;            /* compacte hoogte in de navigatiebalk */
   width: auto;
   vertical-align: middle;
   transition: transform 0.2s ease;
 }
-
-/* Een kleine hover-animatie voor een professionele look */
-#header .logo-header:hover {
-  transform: scale(1.05);
-}
-
 
 /* --- Logo fix --- */
 #banner .inner .logo-banner {
   display: block;
   margin: 0 auto 1em auto;
   width: 100%;
-  max-width: 180px; /* desktop */
+  max-width: 500px; /* desktop */
   height: auto;
 }
 
@@ -4044,4 +4037,4 @@ input, select, textarea {
     height: 40px;
 	
   }
-}
+} 
